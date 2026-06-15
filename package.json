@@ -1,0 +1,18 @@
+{
+  "name": "effect-minimal",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Minimal Effect-TS project",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/helloworld.js",
+    "dev": "tsc && node dist/helloworld.js"
+  },
+  "devDependencies": {
+    "typescript": "6.0.3"
+  },
+  "dependencies": {
+    "effect": "4.0.0-beta.83"
+  },
+  "packageManager": "pnpm@11.6.0"
+}
