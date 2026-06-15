@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@effect/ai-openai-compat':
+        specifier: 4.0.0-beta.83
+        version: 4.0.0-beta.83(effect@4.0.0-beta.83)
       effect:
         specifier: 4.0.0-beta.83
         version: 4.0.0-beta.83
@@ -17,6 +20,11 @@ importers:
         version: 6.0.3
 
 packages:
+
+  '@effect/ai-openai-compat@4.0.0-beta.83':
+    resolution: {integrity: sha512-dIlqP91s5awlssegVT3NirfGR8MBvVWw72E6UjC4JF6B44XaFpnIYmmCE5fm70jPOa65JHZ3AzCrhR8admt8xw==}
+    peerDependencies:
+      effect: ^4.0.0-beta.83
 
   '@msgpackr-extract/msgpackr-extract-darwin-arm64@3.0.4':
     resolution: {integrity: sha512-LCkGo6JDfaBhgST7UpPWgNgLINpcpabaHfyz5OBx75nUYxBsaEPxjnyNjWpeb/xBup/682QnBfRBy2/LvPutZQ==}
@@ -108,6 +116,10 @@ packages:
     hasBin: true
 
 snapshots:
+
+  '@effect/ai-openai-compat@4.0.0-beta.83(effect@4.0.0-beta.83)':
+    dependencies:
+      effect: 4.0.0-beta.83
 
   '@msgpackr-extract/msgpackr-extract-darwin-arm64@3.0.4':
     optional: true
