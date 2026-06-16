@@ -13,7 +13,8 @@
   },
   "dependencies": {
     "@effect/ai-openai-compat": "4.0.0-beta.83",
-    "effect": "4.0.0-beta.83"
+    "effect": "4.0.0-beta.83",
+    "pg": "^8.11.3"
   },
   "packageManager": "pnpm@11.6.0"
 }
